@@ -3,10 +3,9 @@
 body {
     font-family: 'Work Sans', sans-serif;
 }
-
-
-
-
+*{
+    box-sizing: border-box;
+}
 nav {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -93,7 +92,7 @@ nav {
 
     width: 50%;
     text-align: left;
-    padding: 25px 150px 25px 350px;
+    padding: 25px 0 25px 150px;
 }
 
 .banner-text-section h3 {
@@ -105,8 +104,8 @@ nav {
 }
 
 .banner-text-section h1 {
-    font-size: 60px;
-    font-weight: 800;
+    font-size: 70px;
+    font-weight: 900;
     margin-bottom: 30px;
     background: linear-gradient(180deg, #F948B2 0%,
             #8758F1 100%);
@@ -148,6 +147,7 @@ nav {
 
 .banner-image-section {
     width: 50%;
+    margin-right: 100px;
 
 }
 
@@ -165,12 +165,13 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin-top: 100px ;
 
 }
 
 .banner-image-section-1 {
     width: 50%;
+    margin-left: 100px;
 
 }
 
@@ -182,11 +183,15 @@ nav {
   
     width: 50%;
     text-align: right;
-    padding: 50px 220px 50px 155px;
+   
+    padding-right: 150px;
+ 
+  
+  
 }
 
 .banner-text-section-1 h3 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 900;
    
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -200,7 +205,7 @@ nav {
 
     font-weight: 500;
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 15px;
 
     font-weight: 400;
     line-height: 30px;
@@ -211,7 +216,7 @@ nav {
 {
     color: #534C64;
 
-font-size: 32px;
+font-size: 25px;
 
 font-weight: 700;
 
@@ -230,13 +235,13 @@ font-weight: 700;
 }
 .image-text-section h3{
     color: #0B0223;
-    font-size: 45px;
+    font-size: 30px;
     font-weight: 700;
    
 
 }
  .funney{
-  font-size: 45px;
+  font-size: 30px;
   font-weight: 700;
   background: linear-gradient(180deg, #F948B2 0%,
  #8758F1 100%);
@@ -246,7 +251,7 @@ background-clip: text;
 }
 .image-text-section p{
     color: #534C64;
-  font-size: 18px;
+  font-size: 15px;
   
  font-weight: 400;
 
@@ -309,11 +314,12 @@ background-clip: text;
 }
 .position-text-section{
     width: 50%;
-    text-align: right;
-   padding-right: 200px; 
+    text-align: righ;
+    padding-left: 50px;
+    padding-right: 250px; 
 }
 .position-text-section .play{
-   font-size: 48px;
+   font-size: 30px;
    font-weight: 700;
    background: linear-gradient(180deg, #F948B2 0%,
      #8758F1 100%);
@@ -323,12 +329,12 @@ background-clip: text;
 }
 .position-text-section h3{
     color: #0B0223;
-    font-size: 48px;
+    font-size: 30px;
     font-weight: 700;
    }
 .position-text-section p{
     color: #534C64;
-    font-size: 18px;
+    font-size: 15px;
    font-weight: 400;
    margin-top: -25px;
   }
@@ -336,12 +342,15 @@ background-clip: text;
  width: 50%;
  position: relative;
 }
+.position-pic-section img{
+    width: 90%;
+}
 
 
 .position-pic-section .img-2{
-    width: 50%;
+    width: 30%;
     position: absolute;
-    top: 60%;right: 70%;
+    top: 70%;right: 80%;
 }
 /* position-section end */
 
@@ -365,7 +374,7 @@ background-clip: text;
 
 }
 .position-text-section-1 .play-1{
-   font-size: 48px;
+   font-size: 30px;
    font-weight: 700;
    background: linear-gradient(180deg, #F948B2 0%,
      #8758F1 100%);
@@ -375,7 +384,7 @@ background-clip: text;
 }
 .position-text-section-1 h3{
     color: #0B0223;
-    font-size: 48px;
+    font-size: 30px;
     font-weight: 700;
    }
 .position-text-section-1 p{
@@ -388,13 +397,16 @@ background-clip: text;
  width: 50%;
  position: relative;
 }
+.position-pic-section-1 .img-3{
+    width:90% ;
+}
 
 
 .position-pic-section-1 .img-4{
-    width: 40%;
+    width: 30%;
     position: absolute;
-    top: 60%;
-    left: 90%;
+    top: 70%;
+    left: 80%;
 
 }
 .position-pic-section-1 img{
@@ -406,7 +418,7 @@ background-clip: text;
 .grid-container{
     max-width: 1920px;
     min-height: 200px;
-    
+    margin-top: 150px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 
     0%, rgba(255, 66, 165, 0.03) 100%);
    
@@ -417,7 +429,7 @@ background-clip: text;
     justify-content: center;
     align-items: center;
     grid-template-columns: repeat(5,1fr);
-    padding: 100px  300px;
+   padding: 0 100px;
     gap: 50px;
   
    }
@@ -425,14 +437,14 @@ background-clip: text;
    .grid-container-1 .games{
     display: flex;
     gap: 10px;
+    justify-content: center;
+    align-items: center;
  
-  
-
 }
 .grid-container-1 .games p{
     color: #0B0223;
 
-font-size: 15px;
+font-size: 13px;
 
 font-weight: 600;
 
@@ -442,16 +454,16 @@ font-weight: 600;
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
     border: 1px solid #FF42A5;
     border-radius: 25px;
 
 
- 
-}
-.grid-container-1 .games img{
-    width: 30%;
+ }
+.grid-container-1  img{
+    width: 20%;
+    height: 20%;
     object-fit: cover;
 }
 
@@ -500,7 +512,8 @@ background-clip: text;
     font-size: 30px;
 
    display: inline-block;
-   margin-left:35%;
+   margin-left:28%;
+   margin-right: 20%;
    padding: 50px 80px;
  word-spacing: 40px;
    
